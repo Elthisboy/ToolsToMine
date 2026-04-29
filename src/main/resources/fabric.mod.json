@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "toolstomine",
+	"version": "${version}",
+	"name": "ToolsToMine",
+	"description": "Adds power tools: Area drills, chainsaw, Safe TNT and Safe Grenade.",
+	"authors": [
+		"elthisboy"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/toolstomine/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.elthisboy.toolstomine.ToolsToMine"
+		],
+		"client": [
+			"com.elthisboy.toolstomine.ToolsToMineClient"
+		]
+	},
+	"mixins": [
+		"toolstomine.mixins.json",
+		{
+			"config": "toolstomine.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

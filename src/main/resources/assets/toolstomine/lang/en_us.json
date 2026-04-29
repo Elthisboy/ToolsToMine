@@ -1,0 +1,9 @@
+{
+  "item.toolstomine.dirt_drill": "Dirt Drill",
+  "item.toolstomine.chainsaw": "Chainsaw",
+  "item.toolstomine.stone_drill": "Stone Drill",
+  "item.toolstomine.safe_tnt": "Safe TNT",
+  "item.toolstomine.safe_grenade": "Safe Grenade",
+
+  "itemGroup.toolstomine.main": "ToolsToMine"
+}

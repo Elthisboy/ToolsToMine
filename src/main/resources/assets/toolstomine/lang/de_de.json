@@ -1,0 +1,9 @@
+{
+  "item.toolstomine.dirt_drill": "Erdbohrer",
+  "item.toolstomine.chainsaw": "Motorsäge",
+  "item.toolstomine.stone_drill": "Steinbohrer",
+  "item.toolstomine.safe_tnt": "Sicheres TNT",
+  "item.toolstomine.safe_grenade": "Sichere Granate",
+
+  "itemGroup.toolstomine.main": "ToolsToMine"
+}
