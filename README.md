@@ -3,7 +3,7 @@
 ## Project Identity
 - **Name:** ToolsToMine
 - **Mod ID:** `toolstomine`
-- **Version:** `1.0.0` (Resolved at build time)
+- **Version:** `1.0.0`
 
 ## Technical Summary
 The **ToolsToMine** mod expands the player's arsenal with highly specialized, power-mining tools and controlled explosives designed specifically for adventure or custom maps. It registers new custom items and entities to introduce Area-of-Effect (AoE) mining capabilities (drills and chainsaws) alongside "safe" explosives. The mod's core logic bypasses standard vanilla block-breaking and explosion mechanics by utilizing custom entity rendering (`ModEntities`) and specialized item handlers (`SafeGrenadeItem`, `SafeTntItem`, `AreaMineItem`) to ensure that terrain destruction is meticulously controlled.
